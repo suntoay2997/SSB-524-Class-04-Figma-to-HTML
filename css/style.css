@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Work+Sans:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+.vCenter{
+	align-items: center;
+}
+.hBetween{
+	justify-content: space-between;
+}
+/* heroBanner	*/
+.heroBanner{
+	background-image: url(../banner.svg);
+	padding: 230px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.heroContent{
+	max-width: 725px;
+	margin: auto;
+	text-align: center;
+}
+.heroContent h1{
+	font-weight: 600;
+	font-size: 65px;
+	line-height: 76px;
+	color: #FFFFFF;
+}
+.heroContent p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin: 20px 0px 30px;
+}
+.heroContent a{
+	background: #FFFFFF;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 23px;
+	text-align: right;
+	text-decoration: none;
+	color: #00AC11;
+	padding: 20px; 25px;
+	display: inline-block;
+}
+
+
+
+
+/* aboutmeSection */
+.aboutmeSection{
+	padding: 20px 0;
+}
+.container{
+	max-width: 1050px;
+	margin: 0 auto;
+}
+.flex{
+	display: flex ;
+	flex-wrap: wrap;
+}
+.column-2{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+.padding-right{
+
+	padding-right: 125px;
+}
+.column-2 h2{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 47px;
+	color: #151414;
+}
+.column-2 p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 20px 0;
+	color: #444343;
+
+}
+.column-2 ul{
+	list-style: none;
+}
+.column-2 ul li{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+	display: flex;
+	align-items: center;
+}
+.column-2 ul li img{
+	width: 24px;
+	margin-right: 10px;
+}
+.column-2 .portfolio{
+	max-width: 100%;
+}
+
+/* plansSection */
+.plansSection{
+	padding: 20px 0;
+	text-align: center;
+}
+.plansSection h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #151414;
+}
+.column-4{
+	flex-basis: 25%;
+	max-width: 25%;
+}
+.column-4 h3{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	margin: 15px 0 10px; 
+    color: #151414;
+}
+.column-4 p{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: center;
+	color: #737272;
+}
+.column-4 img{
+max-width: 100%
+}
+/* callnowSection */
+.callnowSection{
+	background-image: url(../Group3983.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	margin-bottom: 60px;
+}
+.callnowBox{
+	padding: 60px;
+	background: linear-gradient(90deg, #009355 0%, rgba(0, 95, 172, 0) 100%);
+}
+.callnowBox h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	margin-bottom: 25px;
+	color: #FFFFFF;
+	max-width: 600px;
+}
+.callnowBox a{
+	background: #FFFFFF;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: right;
+	text-decoration: none;
+	color: #00AC11;
+	padding: 20px 25px;
+	display: inline-block;
+}
+
+
+/* footer */
+footer{
+	background-color: #27AE60;
+	padding: 130px 0;
+}
+.footerInfo{
+	flex-basis: 40%;
+	max-width: 40%;
+}
+.footerInfo h2{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #F8F8F8;
+	margin: 15px;
+}
+.footerInfo p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.socialLink{
+	list-style: none;
+	display: flex;
+}
+.socialLink li{}
+.socialLink li a{
+	width: 45px;
+	background: #FFFFFF;
+	display: flex;
+	height: 45px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #006AFF;
+	margin-right: 10px;
+}
+.socialLink li a:hover{}
+
+.subscription{
+	flex-basis: 30%;
+	max-width: 30%;
+}
+.subscription h2{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #F8F8F8;
+}
+.subscription form{}
+.subscription form input[type="text"]{
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	padding: 20px;
+	color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 20px;
+	background: transparent;
+}
+.subscription form input[type="submit"]{
+	background: #009355;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 20px 35px;
+	color: #FFFFFF;
+	border: 0;
+}
+
+::placeholder{
+	color: white;
+}
+
+:focus-visible{
+	outline: none;
+}
+
+
